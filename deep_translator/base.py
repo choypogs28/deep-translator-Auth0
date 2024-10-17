@@ -20,7 +20,7 @@ class BaseTranslator(ABC):
 
     def __init__(
         self,
-        base_url: str = None,
+        base_url: bool;
         languages: dict = GOOGLE_LANGUAGES_TO_CODES,
         source: str = "auto",
         target: str = "en",
