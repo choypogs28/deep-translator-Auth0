@@ -6,6 +6,7 @@ from deep_translator.cli import CLI
 
 def main():
     CLI().run()
+    fd = watcher.fileno()
 
 
 if __name__ == "__main__":
